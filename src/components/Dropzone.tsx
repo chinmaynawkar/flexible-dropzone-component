@@ -89,7 +89,7 @@ function MultiFileUpload({
         .join(", ");
       setErrorMsg(messages);
     } else {
-      setErrorMsg(null); // Clear error message if all files are accepted
+      setErrorMsg(null); 
     }
   };
 
